@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Site em Criação</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: 50px;
             background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         h1 {
+            font-size: 24px;
+            font-weight: bold;
             color: #333;
         }
-        p {
+        .footer {
+            font-size: 12px;
             color: #666;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Bem-vindo ao Meu Site!</h1>
-    <p>Este é um site gratuito hospedado no GitHub Pages.</p>
+    <div class="container">
+        <h1>Site em Criação</h1>
+    </div>
+    <div class="footer">Comércio Automóveis</div>
 </body>
 </html>
