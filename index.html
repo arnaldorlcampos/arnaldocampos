@@ -16,12 +16,21 @@
             height: 100vh;
             margin: 0;
         }
+        .spacer {
+            height: 15vh; /* Espaço de 15% da tela antes do título */
+        }
         img {
             width: 150px; /* Ajusta o tamanho do logotipo */
             margin-bottom: 20px;
         }
         h1 {
             font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .bold-name {
+            font-size: 18px;
             font-weight: bold;
             color: #333;
             margin-bottom: 10px;
@@ -38,8 +47,10 @@
     </style>
 </head>
 <body>
+    <div class="spacer"></div>
     <img src="photo-output.jpeg" alt="Logotipo">
     <h1>Site em Criação</h1>
+    <p class="bold-name">Arnaldo Campos</p>
     <div class="divider"></div>
     <p class="subtitle">Comércio de Automóveis</p>
 </body>
